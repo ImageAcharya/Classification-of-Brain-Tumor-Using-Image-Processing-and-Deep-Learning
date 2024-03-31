@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/index.css' %}"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tumor</title>
+  </head>
+
+  <body>
+    <a href="{% url 'login'%}" class="button">Login</a>
+    <!---<a href="{% url 'select'%}" class="button">preview</a> -->
+    <div
+      class="container"
+      style="background-image: url('{% static 'images/looks.jpg' %}')"
+    >
+      <h1>
+        CLASSIFICATION OF BRAIN TUMOR USING<br />IMAGE PROCESSING AND DEEP
+        LEARNING
+      </h1>
+    </div>
+  </body>
+</html>

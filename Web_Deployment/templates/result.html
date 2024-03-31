@@ -1,0 +1,32 @@
+{% extends 'base.html' %} {% block body %}
+<div class="d-flex flex-column justify-content-center align-items-center">
+  <div class="p-5">
+    <h1 style="font-size: 50px">Brain Tumor Classification</h1>
+  </div>
+  {% if error == 0 %}
+  <div style="font-size: 20px">Please upload image to get result.</div>
+  {% elif error == 1 %}
+  <div style="font-size: 20px">
+    You have got
+    <span
+      class="{% if result == 'No Tumor' %}text-success{% else %}text-danger{% endif %}"
+      >{{result}}</span
+    >.
+  </div>
+  <div class="mt-3">
+    <img
+      src="data:image/jpeg;base64, {{img}}"
+      alt=""
+      height="224"
+      width="224"
+    />
+  </div>
+  {% else %}
+  <div style="font-size: 20px">Please upload correct image to get result.</div>
+  {% endif %}
+  <div class="mt-3">
+    <a href="{% url 'select' %}" class="btn btn-danger">Go Back</a>
+  </div>
+</div>
+
+{% endblock %}

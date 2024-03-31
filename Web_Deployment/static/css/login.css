@@ -1,0 +1,94 @@
+
+
+  body 
+{
+  font-family:sans-serif; 
+  background: -webkit-linear-gradient(to right, #155799, #159957); 
+  background: linear-gradient(to right, #155799, #159957); 
+  color:whitesmoke;
+  margin-top:80px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+form{
+    width:33rem;
+    margin: auto;
+    color:whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11, 15, 13, 0.582);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+input{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+  }
+
+button {
+    background-color: #030804;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+  }
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+  .headingsContainer{
+    text-align: center;
+}
+.mainContainer{
+    padding: 16px;
+}
+
+
+
+
+
+span.forgotpsd a {
+    float: right;
+    color: whitesmoke;
+    padding-top: 16px;
+  }
+
+.forgotpsd a{
+    color: rgb(74, 146, 235);
+  }
+  
+.forgotpsd a:link{
+    text-decoration: none;
+  }
+
+  .register{
+    color: white;
+    text-align: center;
+  }
+  
+  .register a{
+    color: rgb(74, 146, 235);
+  }
+  
+  .register a:link{
+    text-decoration: none;
+  }
+
+
+
+ 
+
+ 

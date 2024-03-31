@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background-image: url('looks.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    
+    
+}
+
+
+
+h1 {
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(242, 255, 237);
+   font-size:38px;
+   padding-right: 80px;
+   text-shadow: 20px;
+   font-display:center;
+   padding:71px;
+   margin-left:129px;
+}
+ h1 {
+    font-size: 38px; /* make our h1 tag larger */
+    font-family: sans-serif; /* choosing our font */
+    background: linear-gradient(to right, rgba(255, 215, 255, 0) 0%, rgba(225, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(rgb(97, 183, 217) 52%, rgb(224, 246, 255) 60%, rgb(78, 99, 132) 61%); /* you can change the colors based on your preference */
+    background-clip: text; /*it defines how far the background should extend within an element, here we set it to text */
+    -webkit-background-clip: text; /*for browsers compatibility */
+    -webkit-text-fill-color: transparent; /* specifies the fill color of text characters. We use transparent to use the background as our text fill  */
+    animation: wave 2000ms ease alternate infinite;
+    transition: all 0.4s ease;
+  }
+  @keyframes wave {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 50vw 10px;
+    }
+  }
+  
+.button {
+    float: right;
+    margin-right: 15px;
+    padding:20px;
+    text-decoration: none;
+    color: blue;
+    
+   }
+
+a:hover {
+    background-color: rgb(249, 241, 247);
+}
